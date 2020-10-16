@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphingPlugin", "GraphingPlugin\GraphingPlugin.vcxproj", "{D52E0B88-A164-4C95-B254-636746EFE9E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphingPluginExamples", "GraphingPluginExamples\GraphingPluginExamples.vcxproj", "{2747760E-4F03-45C3-BBEF-DD2D2E0FF56D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D52E0B88-A164-4C95-B254-636746EFE9E3}.Release|x64.ActiveCfg = Release|x64
+		{D52E0B88-A164-4C95-B254-636746EFE9E3}.Release|x64.Build.0 = Release|x64
+		{2747760E-4F03-45C3-BBEF-DD2D2E0FF56D}.Release|x64.ActiveCfg = Release|x64
+		{2747760E-4F03-45C3-BBEF-DD2D2E0FF56D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D5BDB4F-5C38-447E-9D51-31C3D1F1546A}
+	EndGlobalSection
+EndGlobal
