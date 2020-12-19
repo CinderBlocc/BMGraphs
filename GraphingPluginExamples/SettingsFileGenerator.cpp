@@ -10,12 +10,12 @@
 void GraphingPluginExamples::GenerateSettingsFile()
 {
     //Remove the old example settings file to avoid conflicts
-    if(std::filesystem::exists("./bakkesmod/plugins/settings/GraphingPluginExamples.set"))
+    if(std::filesystem::exists(gameWrapper->GetBakkesModPath() / "plugins" / "settings" / "GraphingPluginExamples.set"))
     {
-        std::filesystem::remove("./bakkesmod/plugins/settings/GraphingPluginExamples.set");
+        std::filesystem::remove(gameWrapper->GetBakkesModPath() / "plugins" / "settings" / "GraphingPluginExamples.set");
     }
 
-    std::ofstream setFile("./bakkesmod/plugins/settings/Y_GraphingPluginExamples_Y.set");
+    std::ofstream setFile(gameWrapper->GetBakkesModPath() / "plugins" / "settings" / "Y_GraphingPluginExamples_Y.set");
 
     nl("Graphing Examples");
     blank;

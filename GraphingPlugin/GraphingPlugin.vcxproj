@@ -44,6 +44,7 @@
       <AdditionalIncludeDirectories>$(BAKKESMODSDK)include;$(SolutionDir)\BMGraphs</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions);IS_PLUGIN;</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

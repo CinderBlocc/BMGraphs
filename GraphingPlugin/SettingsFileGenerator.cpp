@@ -8,7 +8,7 @@
 
 void GraphingPlugin::GenerateSettingsFile()
 {
-    std::ofstream setFile("./bakkesmod/plugins/settings/Z_GraphingPlugin_Z.set");
+    std::ofstream setFile(gameWrapper->GetBakkesModPath() / "plugins" / "settings" / "Z_GraphingPlugin_Z.set");
 
     nl("GRAPHS");
     nl("1|Render|" + cv(CVAR_SHOULD_RENDER));
