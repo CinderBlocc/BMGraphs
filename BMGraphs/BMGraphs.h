@@ -17,6 +17,9 @@ public:
     void BeginRender(const GraphInitData& InInitData);
     void EndRender();
 
+    //Call this from the parent plugin
+    void Render(CanvasWrapper canvas);
+
     //Data input functions
     void InputData(const std::vector<LineGraphDataSingle>& InData);
     void InputData(const std::vector<BarGraphData>& InData);
@@ -61,7 +64,6 @@ private:
     bool    bShouldAnimate = true;
 
     //Rendering functions
-    void Render(CanvasWrapper canvas);
     void DrawGraphBase(CanvasWrapper canvas)     const;
     void DrawReferences(CanvasWrapper canvas)    const;
     void DrawGraphOutline(CanvasWrapper canvas)  const;

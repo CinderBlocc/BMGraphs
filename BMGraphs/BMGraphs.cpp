@@ -26,12 +26,12 @@ void BMGraphs::BeginRender(const GraphInitData& InInitData)
 
     InitData = InInitData;
 
-    gameWrapper->RegisterDrawable(bind(&BMGraphs::Render, this, std::placeholders::_1));
+    //gameWrapper->RegisterDrawable(bind(&BMGraphs::Render, this, std::placeholders::_1));
 }
 
 void BMGraphs::EndRender()
 {
-    gameWrapper->UnregisterDrawables();
+    //gameWrapper->UnregisterDrawables();
 
     LineData.clear();
     BarData.clear();
